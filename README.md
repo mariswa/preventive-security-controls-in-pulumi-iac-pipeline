@@ -44,7 +44,7 @@ The file *setup.cfg* contains the details of the package including the name and 
 To generate the distribution packages, the following commands are to be run from the same folder where *pyproject.toml* is located.
 
 ```bash
-    python3 -m pip install –upgrade build
+    python3 -m pip install –-upgrade build
     python3 -m build 
 ```
 
